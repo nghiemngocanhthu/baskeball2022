@@ -1,0 +1,92 @@
+body{
+	margin: 0;
+	font-family: helvetica;
+}
+header{
+	width: 75%;
+	margin: 0 auto;
+}
+header h1{
+	margin: 0;
+	color: #ED530E;
+	font-size: ２em;
+	line-height: 3em;
+}
+.container{
+	width: 75%;
+	margin: 0 auto;
+}
+nav{
+	background: #1B1E46;
+}
+nav li{
+	display: inline;
+	margin: 20px;
+}
+nav li a{
+	text-decoration: none;
+	color: white;
+	font-size: 1.3em;
+	line-height: 2em;
+}
+nav li a:hover{
+	border-bottom: 1px solid white;
+}
+main li a{
+	text-decoration: none;
+	color: #3E2723;
+	font-size: 1.0em;
+	line-height: 2em;
+}
+main li a:hover{
+	border-bottom: 1px solid purple;
+	color: purple
+}
+#showcase{
+	min-height: 250px;
+	background: url("Basketball-Texture-1.jpg");
+	background-position: bottom;
+}
+#showcase h1{
+	padding-top: 90px;
+	font-size: 3em;
+	text-align: center;
+	color: white;
+}
+#main{
+	margin-top: 20px;
+	display: flex;
+	min-height: 500px;
+}
+article{
+	flex-grow: 5;
+	/*padding: 10px;*/
+}
+aside{
+	/*padding: 25px 10px;*/
+	flex-grow: 5;
+	/*background: url("假的.jpg");
+	background-position: center;*/
+}
+#tel{
+	margin-top: 50px;
+	height: 50px;
+	background: #444;
+	color: white;
+	text-align: center;
+}
+footer{
+	height: 25px;
+	background: #333;
+	color: white;
+	text-align: center;
+}
+h3{
+	font-size: 1.5em;
+}
+#news{
+	font-size: 1.2em;
+}
+li{
+	margin: 20px;
+}

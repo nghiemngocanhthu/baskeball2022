@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bas科ball-建立球隊</title>
+	<link rel="stylesheet" href="createteam.css">
+</head>
+<body>
+	<header id="header">
+		<h1>Bas科ball</h1>
+	</header>
+	<nav>
+		<ul class="container">
+			<li><a href="home.html">首頁</a></li>
+			<li><a href="home.html">戰術板</a></li>
+			<li><a href="createteam.html">球隊管理</a></li>
+			<li><a href="home.html">記錄比賽</a></li>
+			<li><a href="home.html">球隊分析</a></li>
+			<li><a href="login.html">登入</a></li>
+			<li><a href="signup.html">註冊</a></li>
+		</ul>
+	</nav>
+	<!-- <section id ="showcase" class="container">
+		<h2>建立球隊</h2>
+		<p>請填寫以下資料</p>
+	</section> -->
+	<main id="main" class="container">
+		<!-- 球隊資料表單 -->
+		<form action="" method="POST" class="container" id="form" enctype="multipart/form-data">
+			<h2>建立球隊</h2>
+			<p>請填寫以下資料</p>
+			<!-- 球隊資料 -->
+			<h3>球隊資料</h3>
+			<label for="team_pic">上傳球隊照片:</label>
+			<input type="file" id="team_pic" name="team_pic" accept=".jpg, .jpeg, .png"><br>
+			<label for="team_name">球隊名稱：</label>
+			<input type="text" id="team_name" name="team_name" class="input" placeholder="(必填)" required><br>
+			<!-- 職員資料 -->
+			<h3>職員資料</h3>
+			<label for="staff_pic">上傳職員照片:</label>
+			<input type="file" id="staff_pic" name="staff_pic" accept=".jpg, .jpeg, .png"><br>
+			<label for="staff_position">職稱：</label>
+			<input type="text" id="staff_position" name="staff_position" class="input"><br>
+			<label for="staff_name">職員姓名：</label>
+			<input type="text" id="staff_name" name="staff_name" class="input" placeholder="(必填)" required><br>
+			<!-- 球員資料 -->
+			<h3>球員資料</h3>
+			<label for="player_pic">上傳球員照片:</label>
+			<input type="file" id="player_pic" name="player_pic" accept=".jpg, .jpeg, .png"><br>
+			<label for="player_name">球員姓名：</label>
+			<input type="text" id="player_name" name="player_name" class="input" placeholder="(必填)" required><br>
+			<label for="sex">性別：</label>
+			<input type="radio" id="sex_male" name="sex" value="male">男
+			<input type="radio" id="sex_female" name="sex" value="female">女
+			<br>
+			<label for="birth_date">出生日期：</label>
+			<input type="date" id="birth_date" name="birth_date" class="input"><br>
+			<label for="height">身高：</label>
+			<input type="text" id="height" name="height" class="input">公分<br>
+			<label for="weight">體重：</label>
+			<input type="text" id="weight" name="weight" class="input">公斤<br>
+			<label for="number">背號：</label>
+			<input type="text" id="number" name="number" class="input" placeholder="(必填)" required><br>
+			<label for="c">位置：</label>
+			<input type="checkbox" id="c" name="c" value="c">中鋒(C)
+			<input type="checkbox" id="pf" name="pf" value="pf">大前鋒(PF)
+			<input type="checkbox" id="sf" name="sf" value="sf">小前鋒(SF)
+			<input type="checkbox" id="sg" name="sg" value="sg">得分後衛(SG)
+			<input type="checkbox" id="pg" name="pg" value="pg">控球後衛(PG)
+			<br>
+
+			<!-- <label for="pwd">密碼：</label>
+			<input type="password" name="pwd" class="input"><br> -->
+			
+			
+			<!-- <label for="email">E-mail：</label>
+			<input type="email" name="email" class="input"><br>
+			<label for="tel">手機號碼：</label>
+			<input type="tel" name="tel" class="input"><br>
+			<label for="address">居住地區：</label>
+			<select name="address" class="input">
+				<option value="1">咖啡區</option>
+				<option value="2">紅茶區</option>
+				<option value="3">綠茶區</option>
+				<option value="4">青茶區</option>
+				<option value="5">烏龍區</option>
+				<option value="6">冬瓜區</option>
+				<option value="7">抹茶區</option>
+			</select> -->
+			<br>
+			
+			<input type="submit" name="submit" value="送出" style="width:100px;height:30px;margin: 20px;">
+		</form>
+	</main>
+	<footer id ="footer">
+		Copyright &copy; 資管專題
+	</footer>
+</body>
+</html>

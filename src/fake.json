@@ -1,0 +1,37 @@
+[
+  {
+    "name": "A",
+    "number": 10,
+    "position": "PS",
+    "avatar": "./imgs/messi.jpeg",
+    "id": 1
+  },
+  {
+    "name": "B",
+    "number": 21,
+    "position": "AM",
+    "avatar": "./imgs/zidane.jpeg",
+    "id": 2
+  },
+  {
+    "name": "C",
+    "number": 9,
+    "position": "CS",
+    "avatar": "./imgs/ronaldo.jpeg",
+    "id": 3
+  },
+  {
+    "name": "D",
+    "number": 7,
+    "position": "GP",
+    "avatar": "./imgs/cr.jpeg",
+    "id": 4
+  },
+  {
+    "name": "E",
+    "number": 9,
+    "position": "C",
+    "avatar": "./imgs/liyi.jpeg",
+    "id": 5
+  }
+]
